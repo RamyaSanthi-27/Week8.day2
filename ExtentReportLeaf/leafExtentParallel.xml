@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite" verbose="5">
+  <test name="Test">
+    <classes>
+    
+    <class name="week8.day2.ExtentReport.testcase.LoginTest"/>
+    <class name="week8.day2.ExtentReport.testcase.CreateLeadTest"/>
+    <class name="week8.day2.ExtentReport.testcase.EditLeadTest"/>
+    <class name="week8.day2.ExtentReport.testcase.MergeLeadTest"/> 
+    <class name="week8.day2.ExtentReport.testcase.DuplicateLeadTest"/> 
+  	<class name="week8.day2.ExtentReport.testcase.DeleteLeadTest"/> 
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
